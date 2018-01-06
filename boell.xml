@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<?xml-model href="https://cmln.github.io/chameleon/schema/1.0/layout.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+This file is part of the MediaWiki skin Chameleon and an adaption of the
+navhead.xml file (https://github.com/cmln/chameleon/blob/master/layouts/navhead.xml).
+
+@copyright 2013 - 2016, Stephan Gambke
+@license   GNU General Public License, version 3 (or any later version)
+
+The Chameleon skin is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+The Chameleon skin is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
+
+@author Stephan Gambke
+@author Karsten Hoffmeyer (for the adaption)
+@since 1.0
+@ingroup Skins
+-->
+<structure xmlns="https://cmln.github.io/chameleon/schema/1.0/layout.rng">
+
+	<grid>
+
+		<row>
+
+			<cell span="12">
+
+				<component type="container" class="boelltopcomp">
+				</component>
+
+			</cell>
+
+		</row>
+
+		<row>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="10">
+
+				<component type="SiteNotice"/>
+
+			</cell>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+		</row>
+
+		<row class="boellheader">
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="4" class="boelllogocell">
+
+				<component type="Logo" addLink="yes" class="boelllogocomp"/>
+
+			</cell>
+
+			<cell span="6">
+
+				<row>
+					<cell span="12">
+
+						<component type="PersonalTools" hideNewtalkNotifier="yes" class="pull-right"/>
+
+						<component type="NewtalkNotifier" class="pull-right"/>
+
+					</cell>
+				</row>
+
+				<row class="boellsearch">
+
+					<cell span="4">
+
+						<component type="container"/>
+
+					</cell>
+
+					<cell span="8">
+
+						<component type="SearchBar" class="pull-right" buttons="search"/>
+
+					</cell>
+
+				</row>
+
+			</cell>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+		</row>
+
+		<row>
+
+			<cell span="12">
+
+				<component type="NavbarHorizontal">
+
+				<component type="NavMenu" showTools="no" showLanguages="no"/>
+				</component>
+
+			</cell>
+
+		</row>
+
+		<row>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="10" class="boelltools">
+
+				<component type="PageTools" hideSelectedNameSpace="yes" class="pull-right"/>
+
+			</cell>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+		</row>
+
+		<row>
+
+			<cell span="12">
+
+				<component type="MainContent"/>
+
+			</cell>
+
+		</row>
+
+		<row class="boelltoolbar">
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="10">
+
+				<component type="ToolbarHorizontal" hideTools="no" hideLanguages="yes" class="boelltoolbarcomp"/>
+			</cell>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+		</row>
+
+		<row class="boellfooter">
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="10">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+		</row>
+
+		<row class="boellfooterinfo">
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="10">
+
+				<component type="FooterInfo" class="boellfooterinfocomp">
+				</component>
+
+			</cell>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+		</row>
+
+		<row class="boellfooterplaces">
+		
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+			<cell span="5">
+
+				<component type="FooterPlaces"/>
+
+			</cell>
+
+			<cell span="5">
+
+				<component type="FooterIcons"/>
+
+			</cell>
+
+			<cell span="1">
+
+				<component type="container"/>
+
+			</cell>
+
+		</row>
+
+	</grid>
+
+</structure>
