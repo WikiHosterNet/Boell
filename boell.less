@@ -1,0 +1,316 @@
+/**
+ * This file provides flavour specific adaptions to the Chameleon skin.
+ * @author Karsten Hoffmeyer
+ * @license ISC License, https://www.isc.org/downloads/software-support-policy/isc-license/
+ * @copyright 2017-2018, Karsten Hoffmeyer
+ */
+
+/**
+ * External and internal links
+ */
+
+a:link {
+	color: #91c800;
+}
+
+a.external:link {
+	color: #91c800 !important;
+}
+
+a:visited {
+	color: #91c800;
+}
+
+a.external:visited {
+	color: #91c800 !important;
+}
+
+a:hover {
+	color: #b2d84c;
+	text-decoration: none;
+}
+
+a.external:hover {
+	color: #b2d84c !important;
+	text-decoration: none;
+}
+
+a:active {
+	color: #b2d84c;
+	text-decoration: none;
+}
+
+a.external:active {
+	color: #b2d84c !important;
+	text-decoration: none;
+}
+
+a.new:link, #p-personal a.new:link {
+    color: #c83700;
+}
+
+a.new:link:hover, #p-personal a.new:link:hover {
+    color: #ff5616;
+}
+
+/**
+ * Images
+ */
+
+.Banner img {
+	width: 100%;
+	height: 100%;
+}
+
+/**
+ * Image thumbs
+ */
+
+div.tleft {
+	margin: 0.5em 1.4em 0 0;
+}
+
+.thumbinner {
+	background-color: #fff;
+}
+
+/**
+ * Main Page
+ */
+
+.page-Hauptseite .firstHeading {
+    display: none;
+}
+
+/**
+ * Layout
+ */
+
+.container {
+	background: rgba( 255, 255, 255, 1 );
+}
+.container-fluid {
+	max-width: 1380px;
+	margin: 0 auto;
+	border-top: 1px solid #e2e2e2;
+	padding-left: 0;
+}
+
+/**
+ * Header above sitenotice
+ */
+
+.boelltopcomp {
+	height: 10px;
+}
+
+/**
+ * Sitenotice
+ */
+
+.sitedir-ltr .mw-dismissable-notice-body {
+	margin: 0 !important;
+}
+
+.sitedir-ltr .mw-dismissable-notice-close {
+	color: #91c800;
+}
+
+/**
+ * Content area
+ */
+
+.mw-body {
+	max-width: 1380px;
+	margin: 1em auto;
+	padding: 0;
+}
+
+/**
+ * Logo
+ */
+
+.boelllogocell.col-lg-4 {
+	padding: 0 0.5em;
+}
+
+div#p-logo.p-logo.boelllogocomp a img {
+	max-width: 400px;
+	display: block;
+	width: 100%;
+	margin: 1em 0;
+	height: auto;
+}
+
+
+/**
+ * Search box
+ */
+
+/* Add a marging to the top of the row holding the search box */
+div.boellsearch.row {
+	margin-top: 1em;
+}
+
+/* Make the search box streach all cells */
+.p-search,
+.p-search .form-inline .input-group {
+	width: 100%;
+}
+.p-search .form-inline .input-group .input-group-btn {
+	width: 0;
+}
+
+/* Control border and shadow of the search box */
+.form-control:focus {
+	border-color: #91c800;
+	-webkit-box-shadow: inset 0 1px 1px rgba( 0, 0, 0, .075 ), 0 0 8px rgba( 145, 200, 0, 0.6 );
+	box-shadow: inset 0 1px 1px rgba( 0, 0, 0, .075 ), 0 0 8px rgba( 145, 200, 0, 0.6 );
+}
+
+/* Change the color of the search button */
+.btn-default {
+	color: #b2d84c;
+}
+.btn-default:hover {
+	color: #91c800;
+	background-color: #deeeb2;
+	border-color: #adadad;
+}
+
+/**
+ * Google custom search
+ */
+
+.cse input.gsc-search-button,
+input.gsc-search-button {
+	color: #91c800;
+	background-color: #deeeb2;
+	border: 1px solid #91c800;
+}
+
+.gs-result .gs-title,
+.gs-result .gs-title * {
+	color: #91c800;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+	color: #91c800;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+	color: #b2d84c;
+}
+
+/**
+ * Navigation bar
+ */
+
+.navbar-toggle {
+	margin: 5px 0 0;
+}
+
+/**
+ * Toolbar prior to bottom
+ */
+
+.boelltools.col-lg-10 {
+	margin: -20px 0;
+}
+
+.boelltoolbar.row {
+	background-color: #f1f1f1;
+}
+
+.boelltoolbarcomp {
+	background-color: #f1f1f1;
+}
+
+.navbar.navbar-default.p-tb.boelltoolbarcomp {
+	border: none;
+	margin: 0.5em 0;
+}
+
+/**
+ * Footer
+ */
+
+.boellfooter.row {
+	background-color: #91c800;
+}
+
+.boellfooter {
+	background-color: #91c800;
+	height: 1em;
+}
+
+.footer-info.boellfooterinfocomp.list-unstyled.small li {
+	padding: 3px 0;
+}
+
+.footer-info.boellfooterinfocomp.list-unstyled.small li a.external {
+	color: #333 !important;
+	text-decoration: none;
+}
+
+.footer-info.boellfooterinfocomp.list-unstyled.small li a.external:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+/**
+ * FooterInfo
+ */
+
+.boellfooterinfo.row {
+	background-color: #91c800;
+}
+
+.boellfooterinfocomp {
+	background-color: #91c800;
+	margin: 0 auto;
+	border-bottom: 1px solid #5d8100;
+	border-top: 1px solid #5d8100;
+}
+
+.footer-info {
+	padding: 0;
+}
+
+/**
+ * FooterPlaces
+ */
+
+.boellfooterplaces {
+	background-color: #91c800;
+}
+
+.boellfooterplaces.row {
+	padding-top: 10px;
+}
+
+.list-inline.footer-places li small a {
+	color: #333;
+	text-decoration: none;
+}
+
+.list-inline.footer-places li small a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/**
+ * Special:AllPages
+ */
+
+/* Make the fields and drowdowns responsive */
+.mw-input,
+td.mw-input,
+td.mw-input input#nsfrom,
+td.mw-input input#nsto,
+td.mw-input select#namespace.namespaceselector {
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	max-width: 95%;
+}
