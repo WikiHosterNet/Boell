@@ -2,10 +2,10 @@
 This repository holds adaptions for the Boell flavor to the MediaWiki Chameleon skin.
 
 ## Version  
-1.0.0  
+1.0.1  
 
 ## Date  
-2017-12-07
+2018-01-10
 
 ## Created by
 **Karsten Hoffmeyer**  
