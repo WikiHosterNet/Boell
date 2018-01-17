@@ -64,19 +64,13 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 
 		<row class="boellheader">
 
-			<cell span="1">
-
-				<component type="container"/>
-
-			</cell>
-
 			<cell span="4" class="boelllogocell">
 
 				<component type="Logo" addLink="yes" class="boelllogocomp"/>
 
 			</cell>
 
-			<cell span="6">
+			<cell span="8">
 
 				<row>
 					<cell span="12">
@@ -106,12 +100,6 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 
 			</cell>
 
-			<cell span="1">
-
-				<component type="container"/>
-
-			</cell>
-
 		</row>
 
 		<row>
@@ -129,7 +117,7 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 
 		<row>
 
-			<cell span="1">
+			<cell span="2">
 
 				<component type="container"/>
 
@@ -138,12 +126,6 @@ with this program. If not, see <https://www.gnu.org/licenses/>.
 			<cell span="10" class="boelltools">
 
 				<component type="PageTools" hideSelectedNameSpace="yes" class="pull-right"/>
-
-			</cell>
-
-			<cell span="1">
-
-				<component type="container"/>
 
 			</cell>
 
